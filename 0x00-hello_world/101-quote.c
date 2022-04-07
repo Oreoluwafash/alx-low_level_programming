@@ -1,8 +1,13 @@
-#include <unistd.h>
+#include<unistd.h>
+/**
+ * main - This is main
+ *
+ * Return: End point is giving 1 today
+ */
 int main(void)
 {
-	char str1[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+	char st[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
 
-	write(2, str1, 59);
+	write(2, st, 59);
 	return (1);
 }
