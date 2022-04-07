@@ -13,4 +13,4 @@ int main(void)
 	printf("Size of a float: %d byte(s)\n", sizeof(float));
 	return (0);
 }
-./betty-style.pl 6-size.c
+
