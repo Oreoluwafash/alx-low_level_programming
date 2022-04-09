@@ -1,17 +1,18 @@
 #include <stdio.h>
-
 /**
- * main - Prints reversed alphabet.
+ * main - This is a main function
  *
- * Return: Always 0 (Success)
+ * Return: return 0
  */
 int main(void)
 {
-	int i;
+	char uppalpha[] = "abcdefghijklmnopqrstuvwxyz";
 
-	for (i = 122; i > 96; i--)
+	int n;
+
+	for (n = 25; n >= 0; n--)
 	{
-		putchar(i);
+		putchar(uppalpha[n]);
 	}
 	putchar('\n');
 	return (0);

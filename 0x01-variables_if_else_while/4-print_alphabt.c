@@ -1,22 +1,18 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-
 /**
- * main - Prints the alphabet without q and e.
+ * main - This is main
  *
- * Return: Always 0 (Success)
+ * Return:returns 0
  */
 int main(void)
 {
-	int i;
+	char alpha[] = "abcdfghijklmnoprstuvwxyz";
 
-	for (i = 97; i < 123; i++)
+	int n;
+
+	for (n = 0; n < 24; n++)
 	{
-		if (i != 101 && i != 113)
-		{
-			putchar(i);
-		}
+		putchar(alpha[n]);
 	}
 	putchar('\n');
 	return (0);

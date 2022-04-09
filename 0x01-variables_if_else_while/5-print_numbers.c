@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - Prints numbers from 0 to 9.
+ * main - This is a main function
  *
- * Return: Always 0 (Success)
+ * Return: Always 0
  */
 int main(void)
 {
