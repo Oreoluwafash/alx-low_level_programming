@@ -4,8 +4,7 @@
  *
  * c: Character in ASCII
  *
- * Returns - 1 if its a letter either lower or uppercase
- * and 0 otherwise
+ * Returns - 1 if its a letter either lower or uppercase and 0 otherwise
  */
 int _isalpha(int c)
 {
