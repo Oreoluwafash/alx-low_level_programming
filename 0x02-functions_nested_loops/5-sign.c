@@ -2,9 +2,9 @@
 /**
  * print_sign - Prints the sign of a number
  *
- * @n - The inputted integer
+ * @n: The inputted integer
  *
- * Return - 1 if greater than zero. 0 is zero.
+ * Return: 1 if greater than zero. 0 is zero.
  * -1 is less than zero
  */
 int print_sign(int n)
