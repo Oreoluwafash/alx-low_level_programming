@@ -16,10 +16,10 @@ int main(void)
 	for (c = 0; c < 48; c++)
 	{
 		fn = n1 + n2;
-		printf(", %d", fn);
+		printf(", %ld", fn);
 		n1 = n2;
 		n2 = fn;
 	}
-	printf('\n')
+	printf("\n")
 		return (0);
 }
