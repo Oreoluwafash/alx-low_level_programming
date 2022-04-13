@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * natural - print natural numbers
+ * main - print natural numbers
  *
  * Return: Always zero.
  */
