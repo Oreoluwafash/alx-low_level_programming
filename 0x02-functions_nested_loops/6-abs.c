@@ -4,7 +4,9 @@
 /**
  * _abs - absolute value
  *
- * Return: Always 0.
+ * @i: input number as integer
+ *
+ * Return: Absolute value
  */
 int _abs(int i)
 {
