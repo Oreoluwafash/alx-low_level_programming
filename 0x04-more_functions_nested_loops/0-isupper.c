@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * _isupper - checks if parameter is in uppercase
- * @c: input character
+ * _isupper - function hat checks for uppercase character.
+ * @c: input value to check
  * Return: int.
  */
 int _isupper(int c)
