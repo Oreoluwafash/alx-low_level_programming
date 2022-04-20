@@ -8,11 +8,12 @@
  */
 void puts_half(char *str)
 {
+	int j;
+
 	int i = strlen(str);
 
 	i = i - 1;
 
-	int j;
 
 	if (i % 2 != 0)
 	{
@@ -24,7 +25,7 @@ void puts_half(char *str)
 	}
 	while (j <= i)
 	{
-		putchr(*(str + j));
+		putchar(*(str + j));
 		j++;
 	}
 	putchar('\n');
