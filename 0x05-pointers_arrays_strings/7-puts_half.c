@@ -16,15 +16,15 @@ void puts_half(char *str)
 
 	if (i % 2 != 0)
 	{
-		j = (i - 1) / 2;
+		j = ((i - 1) / 2) + 1;
 	}
 	else
 	{
-		j = i / 2;
+		j = (i / 2) + 1;
 	}
-	whil (j <= 1)
+	while (j <= i)
 	{
-		putchr(*(s + j));
+		putchr(*(str + j));
 		j++;
 	}
 	putchar('\n');

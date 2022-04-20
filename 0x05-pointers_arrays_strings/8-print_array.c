@@ -6,7 +6,7 @@
  * @n: input elements
  * Return: nothing
  */
-void print_array(int *a, int b)
+void print_array(int *a, int n)
 {
 	int i = 0;
 
