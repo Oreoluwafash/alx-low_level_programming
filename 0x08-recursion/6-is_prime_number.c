@@ -17,11 +17,11 @@ int is_prime(unsigned int n, unsigned int c)
 	return (0 + is_prime(n, c + 1));
 }
 /**
- * _is_prime_number - detects ifinput is a  prime number
+ * is_prime_number - detects ifinput is a  prime number
  * @n: input number
  * Return: 1 or 0
  */
-int _is_prime_number(int n)
+int is_prime_number(int n)
 {
 	if (n == 0)
 		return (0);
@@ -29,5 +29,5 @@ int _is_prime_number(int n)
 		return (0);
 	if (n == 1)
 		return (0);
-	return (_is_prime(n, 2));
+	return (is_prime(n, 2));
 }
