@@ -29,7 +29,7 @@ int comparator(char *s, int n1, int n2)
 	return (0);
 }
 /**
- * _is_palindrome - detects if a string is a palindrome
+ * is_palindrome - detects if a string is a palindrome
  * @s: string
  * Return: 1 or 0
  */
