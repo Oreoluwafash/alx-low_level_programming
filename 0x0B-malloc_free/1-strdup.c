@@ -5,7 +5,8 @@
  * @str: string
  * Return: pointer of an array
  */
-char *_strdup(char *str){
+char *_strdup(char *str)
+{
 	char *strout;
 	unsigned int i, j;
 
@@ -14,7 +15,8 @@ char *_strdup(char *str){
 	for (i = 0; str[i] != '\0'; i++)
 		;
 	strout = (char *)malloc(sizeof(char(char) * (i + 1);
-				\if (strout == NULL)
+				       if (strout == NULL)
+				       
 				return (NULL);
 				for (j = 0;j <= i; j++)
 				strout[j] = str[j];
